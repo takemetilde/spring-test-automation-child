@@ -1,0 +1,249 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-14T17:56:53.008Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.org.context.CucumberSpringAPIContext.beforeUI()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Sequential Execution, Check JsonPlaceholder API",
+        "description": "",
+        "id": "query-jsonplaceholder-api;sequential-execution--check-jsonplaceholder-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 240000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the headers:",
+            "match": {
+              "location": "com.org.cucumber.steps.api.HeaderSteps.the_headers(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "content-type",
+                  "accept"
+                ]
+              },
+              {
+                "cells": [
+                  "application/json",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2495000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the client gets the post: 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 26
+                }
+              ],
+              "location": "com.org.cucumber.steps.api.ServiceSteps.the_client_gets_the_post(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the server returns the response code: 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 38
+                }
+              ],
+              "location": "com.org.cucumber.steps.api.ServiceSteps.the_server_returns_the_response_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      }
+    ],
+    "name": "Query JsonPlaceholder API",
+    "description": "",
+    "id": "query-jsonplaceholder-api",
+    "keyword": "Feature",
+    "uri": "classpath:features/API2Test.feature",
+    "tags": [
+      {
+        "name": "@Test2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-14T17:56:55.935Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.org.context.CucumberSpringAPIContext.beforeUI()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Sequential Execution, Check JsonPlaceholder API",
+        "description": "",
+        "id": "query-jsonplaceholder-api;sequential-execution--check-jsonplaceholder-api",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the headers:",
+            "match": {
+              "location": "com.org.cucumber.steps.api.HeaderSteps.the_headers(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "content-type",
+                  "accept"
+                ]
+              },
+              {
+                "cells": [
+                  "application/json",
+                  "application/json"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 497000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the client gets the post: 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 26
+                }
+              ],
+              "location": "com.org.cucumber.steps.api.ServiceSteps.the_client_gets_the_post(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the server returns the response code: 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 38
+                }
+              ],
+              "location": "com.org.cucumber.steps.api.ServiceSteps.the_server_returns_the_response_code(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 103000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the server returns the response:",
+            "match": {
+              "location": "com.org.cucumber.steps.api.ServiceSteps.the_server_returns_the_response(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userId",
+                  "id",
+                  "title",
+                  "body"
+                ]
+              },
+              {
+                "cells": [
+                  "1",
+                  "1",
+                  "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+                  "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "Query JsonPlaceholder API",
+    "description": "",
+    "id": "query-jsonplaceholder-api",
+    "keyword": "Feature",
+    "uri": "classpath:features/APITest.feature",
+    "tags": [
+      {
+        "name": "@Test1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

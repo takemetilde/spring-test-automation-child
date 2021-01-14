@@ -1,0 +1,4 @@
+spring:
+  profiles: test
+api:
+  baseUrl: https://jsonplaceholder.typicode.com
